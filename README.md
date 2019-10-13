@@ -1,14 +1,14 @@
 # Crud api Project
 
 
-#Testing environment
+# Testing environment
 -https://springbootherokumongo.herokuapp.com
 -https://springbootherokumongo.herokuapp.com/swagger-ui.html#/
 
-#REST Resource
+# REST Resource
 
--#GET /places
-Will return the list of registered places
+# GET /places
+- Will return the list of registered places
 
 Response Body example:
 [
@@ -23,8 +23,8 @@ Response Body example:
   }
 ]
 
--#GET /places/cities
-Will return to list of registered places filtered by cities
+# GET /places/cities
+- Will return to list of registered places filtered by cities
 
 Path parameters
 Parameter:city	Description:city	Parameter Type:query Data Type:String
@@ -42,8 +42,8 @@ Response Body example:
   }
 ]
 
--#GET /places/filter/{slug}
-Will return to list of registered places filtered by name(or a part of the name)
+# GET /places/filter/{slug}
+- Will return to list of registered places filtered by name(or a part of the name)
 
 Path parameters
 Parameter:slug	Description:place name in slug format	Parameter Type:path Data Type:String
@@ -61,8 +61,8 @@ Response Body example:
   }
 ]
 
--#GET /places/placename
-Will return a place object
+# GET /places/placename
+-Will return a place object
 Path parameters
 Parameter:name	Description:Place name	Parameter Type:query Data Type:String
 
@@ -92,8 +92,8 @@ Response Body example:
 }
 
 
--#POST /places
-Will insert a place dto
+# POST /places
+- Will insert a place dto
 
 Request Body Example:
 {
@@ -106,14 +106,14 @@ Response Body
 no content
 
 
--#DELETE /places/{id}
-Will delete a place in database
+# DELETE /places/{id}
+- Will delete a place in database
 
 Path parameters
 Parameter:id	Description:the place id on database	Parameter Type:path  Data Type:String
 
--#PUT /places/{id}
-Will update Place by id 
+# PUT /places/{id}
+- Will update Place by id 
 
 Path parameters
 Parameter:id	Description:the place id on database	Parameter Type:path  Data Type:String
