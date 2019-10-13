@@ -2,8 +2,8 @@
 
 
 # Testing environment
--https://springbootherokumongo.herokuapp.com
--https://springbootherokumongo.herokuapp.com/swagger-ui.html#/
+- https://springbootherokumongo.herokuapp.com
+- https://springbootherokumongo.herokuapp.com/swagger-ui.html#/
 
 # REST Resource
 
